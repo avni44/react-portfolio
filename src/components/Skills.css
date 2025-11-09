@@ -1,0 +1,30 @@
+.skills {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills-list li {
+  background: #2575fc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .skills h2 {
+    font-size: 2rem;
+  }
+}

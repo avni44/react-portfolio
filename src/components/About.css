@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  flex-direction: column; /* stack on mobile */
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(to right, #726f76, #99a1b0);
+  color: #292626;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.about h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 2.2rem;
+  }
+  .about p {
+    font-size: 1rem;
+  }
+  .btn {
+    padding: 0.6rem 1.2rem;
+  }
+}
